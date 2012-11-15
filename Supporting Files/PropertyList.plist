@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DogAge</key>
+	<array>
+		<string>None</string>
+		<string>0-12 months</string>
+		<string>12-24 months</string>
+		<string>2-6 years</string>
+		<string>+6 years</string>
+	</array>
+	<key>DogSize</key>
+	<array>
+		<string>None</string>
+		<string>X-Small</string>
+		<string>Mini</string>
+		<string>Medium</string>
+		<string>Large</string>
+		<string>Giant</string>
+	</array>
+	<key>DogSizeDetail</key>
+	<array>
+		<string></string>
+		<string>up to 4 kg at maturity / up to 9 lb at maturity</string>
+		<string>up to 10 kg at maturity / up to 23 lb at maturity</string>
+		<string>11 to 25 kg at maturity / 24 to 55 lb at maturity</string>
+		<string>26 to 44 kg at maturity / 56 to 99 lb at maturity</string>
+		<string>over 45 kg at maturity / over 100 lb at maturity</string>
+	</array>
+	<key>FoodBrand</key>
+	<array>
+		<string>None</string>
+		<string>Eukanuba</string>
+		<string>Eukanuba Breed-Specific</string>
+		<string>Eukanuba Daily Care</string>
+		<string>Eukanuba Premium Performance</string>
+		<string>Hill&apos;s Prescription Diet</string>
+		<string>Hill&apos;s Science Plan</string>
+		<string>Purina Pro Plan</string>
+		<string>Purina Veterinary Diets</string>
+		<string>Royal Canin Breed Health Nutrition</string>
+		<string>Royal Canin Size Health Nutrition</string>
+		<string>Royal Canin Vet Care Nutrition</string>
+		<string>Royal Canin Veterinary Diets</string>
+	</array>
+	<key>HealthCare</key>
+	<array>
+		<string>None</string>
+		<string>Bones and Joints</string>
+		<string>Fibre</string>
+		<string>Hair and Skin</string>
+		<string>Ideal Weight</string>
+		<string>Longevity</string>
+		<string>Neutered</string>
+		<string>Optimal Care</string>
+		<string>Oral Care</string>
+		<string>Overweight</string>
+		<string>Pregnant or Nursing Dog</string>
+		<string>Puppy</string>
+		<string>Sterilised</string>
+		<string>Stomach</string>
+		<string>Vitality</string>
+		<string>Weaning</string>
+	</array>
+	<key>Medicine</key>
+	<array>
+		<string>None</string>
+		<string>Allergic</string>
+		<string>Anorexia</string>
+		<string>Articular Mobility</string>
+		<string>Cancer</string>
+		<string>Cardiovascular</string>
+		<string>Convalescent</string>
+		<string>Diabetes</string>
+		<string>Gastrointestinal</string>
+		<string>Hepatic</string>
+		<string>Renal</string>
+		<string>Stress</string>
+		<string>Urinary</string>
+	</array>
+	<key>DogBreed</key>
+	<array>
+		<string>None</string>
+		<string>American Cocker Spaniels</string>
+		<string>Belgian Shepherds</string>
+		<string>Border Terrier</string>
+		<string>Boxer</string>
+		<string>Bulldog</string>
+		<string>Cairn Terriers</string>
+		<string>Cane Corso</string>
+		<string>Cavalier King Charles</string>
+		<string>Chesapeake Bay Retrievers</string>
+		<string>Chihuahua</string>
+		<string>Cocker Spaniel</string>
+		<string>Curly Coated Retriever</string>
+		<string>Dachshund</string>
+		<string>Dalmatian</string>
+		<string>Doberman Pinschers</string>
+		<string>English Setters</string>
+		<string>English Springer Spaniels</string>
+		<string>Flat-Coated Retriever</string>
+		<string>Fox Terrier</string>
+		<string>French Bulldog</string>
+		<string>French Mastiff</string>
+		<string>German Shepherd</string>
+		<string>Golden Retriever</string>
+		<string>Gordon Setters</string>
+		<string>Great Dane</string>
+		<string>Irish Setters</string>
+		<string>Irish Water Spaniel</string>
+		<string>Italian Spinone</string>
+		<string>Jack Russell</string>
+		<string>Labrador Retriever</string>
+		<string>Maltese</string>
+		<string>Miniature Schnauzer</string>
+		<string>Parson Russell</string>
+		<string>Poodle</string>
+		<string>Portuguese Water Dog</string>
+		<string>Pug</string>
+		<string>Rhodesian Ridgeback</string>
+		<string>Rottweiler</string>
+		<string>Scottish Terriers</string>
+		<string>Shih Tzu</string>
+		<string>West Highland White Terrier</string>
+		<string>Yorkshire Terrier</string>
+	</array>
+</dict>
+</plist>

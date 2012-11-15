@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A23887C161A431D004B50BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A23887B161A431D004B50BC /* UIKit.framework */; };
+		7A23887E161A431D004B50BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A23887D161A431D004B50BC /* Foundation.framework */; };
+		7A238880161A431D004B50BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A23887F161A431D004B50BC /* CoreGraphics.framework */; };
+		7A238886161A431D004B50BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A238884161A431D004B50BC /* InfoPlist.strings */; };
+		7A238888161A431D004B50BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A238887161A431D004B50BC /* main.m */; };
+		7A2388BC161A4454004B50BC /* GMAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A23889E161A4454004B50BC /* GMAboutViewController.m */; };
+		7A2388C0161A4454004B50BC /* GMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2388A6161A4454004B50BC /* GMDetailViewController.m */; };
+		7A2388C1161A4454004B50BC /* GMFoodBrandTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2388A8161A4454004B50BC /* GMFoodBrandTableViewController.m */; };
+		7A2388C2161A4454004B50BC /* GMDogSizeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2388AA161A4454004B50BC /* GMDogSizeTableViewController.m */; };
+		7A2388C3161A4454004B50BC /* GMHealthCareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2388AC161A4454004B50BC /* GMHealthCareTableViewController.m */; };
+		7A2388C4161A4454004B50BC /* GMInitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2388AE161A4454004B50BC /* GMInitTableViewController.m */; };
+		7A2388C5161A4454004B50BC /* GMMedicineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2388B0161A4454004B50BC /* GMMedicineTableViewController.m */; };
+		7A2388C8161A4454004B50BC /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A2388BA161A4454004B50BC /* PropertyList.plist */; };
+		7A2388CA161A448C004B50BC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2388C9161A448C004B50BC /* MainStoryboard.storyboard */; };
+		7A2388CD161A4577004B50BC /* FoodProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2388CC161A4577004B50BC /* FoodProducts.m */; };
+		7A2388D4161A45F1004B50BC /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2388D3161A45F1004B50BC /* CoreDataTableViewController.m */; };
+		7A238926161A471A004B50BC /* fg100.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A23890B161A471A004B50BC /* fg100.png */; };
+		7A238927161A471A004B50BC /* fgg101.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A23890C161A471A004B50BC /* fgg101.png */; };
+		7A238935161A4752004B50BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A238934161A4752004B50BC /* CoreData.framework */; };
+		7A238939161A475E004B50BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A238938161A475E004B50BC /* QuartzCore.framework */; };
+		7A23893B161A4763004B50BC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A23893A161A4763004B50BC /* Twitter.framework */; };
+		7A23893D161A4769004B50BC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A23893C161A4769004B50BC /* MessageUI.framework */; };
+		7A3682F61655344A00B74DBF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A3682EF1655344A00B74DBF /* Model.xcdatamodeld */; };
+		7A3682F91655361D00B74DBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3682F8165535E800B74DBF /* AppDelegate.m */; };
+		7A45958D1621F1520029960F /* eukanuba.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A45958C1621F1520029960F /* eukanuba.png */; };
+		7A52EDC2163162AB001F8462 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A52EDC1163162AB001F8462 /* Default-568h@2x.png */; };
+		7A52EDCD163163AA001F8462 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A52EDCA163163AA001F8462 /* iRate.bundle */; };
+		7A52EDCE163163AA001F8462 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A52EDCC163163AA001F8462 /* iRate.m */; };
+		7A52EDD416316484001F8462 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A52EDD316316484001F8462 /* Social.framework */; };
+		7A668497161A4E3E004AAA32 /* GMDogAgeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A668490161A4E3D004AAA32 /* GMDogAgeTableViewController.m */; };
+		7A668498161A4E3E004AAA32 /* GMDogBreedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A668492161A4E3D004AAA32 /* GMDogBreedTableViewController.m */; };
+		7A668499161A4E3E004AAA32 /* GMDogFoodDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A668494161A4E3E004AAA32 /* GMDogFoodDataBase.m */; };
+		7A66849A161A4E3E004AAA32 /* GMMyDogFoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A668496161A4E3E004AAA32 /* GMMyDogFoodTableViewController.m */; };
+		7A803DF31625863900300917 /* dogBrands.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A803DED1625863900300917 /* dogBrands.png */; };
+		7A803DF41625863900300917 /* dogHealthCare.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A803DEE1625863900300917 /* dogHealthCare.png */; };
+		7A803DF51625863900300917 /* dogMedicine.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A803DEF1625863900300917 /* dogMedicine.png */; };
+		7A803DF71625863900300917 /* dogSize.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A803DF11625863900300917 /* dogSize.png */; };
+		7A803DF81625863900300917 /* dogBreeds.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A803DF21625863900300917 /* dogBreeds.png */; };
+		7A803DFA162586B200300917 /* dogAge.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A803DF9162586B200300917 /* dogAge.png */; };
+		7AAC08061632B89600D15E64 /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAC08051632B89600D15E64 /* Facebook.png */; };
+		7AB740B81626C091009331ED /* TwitterLogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB740B71626C091009331ED /* TwitterLogo2.png */; };
+		7AB740BA1626C269009331ED /* EMailLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB740B91626C269009331ED /* EMailLogo.png */; };
+		7AB740C91626C7F3009331ED /* dogFood57.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB740C81626C7F3009331ED /* dogFood57.png */; };
+		7AB740CB1626C7F8009331ED /* dogFood114.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB740CA1626C7F8009331ED /* dogFood114.png */; };
+		7AB740CF1626CB44009331ED /* dogFoodIconAbout.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB740CE1626CB44009331ED /* dogFoodIconAbout.png */; };
+		7AB740D11626CD3B009331ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB740D01626CD3B009331ED /* Default.png */; };
+		7AB740D31626CD40009331ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB740D21626CD40009331ED /* Default@2x.png */; };
+		7AC31DAF165518CF00874079 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A238936161A4759004B50BC /* iAd.framework */; };
+		7AED106F161C5B97002DE1D7 /* royalCaninBreedHealthNutrition.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AED106E161C5B97002DE1D7 /* royalCaninBreedHealthNutrition.jpg */; };
+		7AED1075161C8C96002DE1D7 /* royalCaninSizeHealthNutrition.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AED1074161C8C96002DE1D7 /* royalCaninSizeHealthNutrition.jpg */; };
+		7AED107B161CC25F002DE1D7 /* royalCaninVeterinaryDiet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AED107A161CC25F002DE1D7 /* royalCaninVeterinaryDiet.jpg */; };
+		7AED107D161CC323002DE1D7 /* royalCaninVetCareNutrition.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AED107C161CC323002DE1D7 /* royalCaninVetCareNutrition.jpg */; };
+		7AF5B8BB1622E59B00B8A080 /* hillsSP.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF5B8B91622E59B00B8A080 /* hillsSP.png */; };
+		7AF5B8BC1622E59B00B8A080 /* hillsPD.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7AF5B8BA1622E59B00B8A080 /* hillsPD.PNG */; };
+		7AF9FF6616242263009D060C /* purinaProPlan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AF9FF6416242263009D060C /* purinaProPlan.jpg */; };
+		7AF9FF6716242263009D060C /* purinaVetDiets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AF9FF6516242263009D060C /* purinaVetDiets.jpg */; };
+		7AF9FF7116244224009D060C /* fonsButtonFive.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF9FF7016244224009D060C /* fonsButtonFive.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A238877161A431D004B50BC /* DogFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A23887B161A431D004B50BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A23887D161A431D004B50BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A23887F161A431D004B50BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A238883161A431D004B50BC /* DogFood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogFood-Info.plist"; sourceTree = "<group>"; };
+		7A238885161A431D004B50BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A238887161A431D004B50BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A238889161A431D004B50BC /* DogFood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DogFood-Prefix.pch"; sourceTree = "<group>"; };
+		7A23889D161A4454004B50BC /* GMAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMAboutViewController.h; path = ../GMAboutViewController.h; sourceTree = "<group>"; };
+		7A23889E161A4454004B50BC /* GMAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMAboutViewController.m; path = ../GMAboutViewController.m; sourceTree = "<group>"; };
+		7A2388A5161A4454004B50BC /* GMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMDetailViewController.h; path = ../GMDetailViewController.h; sourceTree = "<group>"; };
+		7A2388A6161A4454004B50BC /* GMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMDetailViewController.m; path = ../GMDetailViewController.m; sourceTree = "<group>"; };
+		7A2388A7161A4454004B50BC /* GMFoodBrandTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMFoodBrandTableViewController.h; path = ../GMFoodBrandTableViewController.h; sourceTree = "<group>"; };
+		7A2388A8161A4454004B50BC /* GMFoodBrandTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMFoodBrandTableViewController.m; path = ../GMFoodBrandTableViewController.m; sourceTree = "<group>"; };
+		7A2388A9161A4454004B50BC /* GMDogSizeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMDogSizeTableViewController.h; path = ../GMDogSizeTableViewController.h; sourceTree = "<group>"; };
+		7A2388AA161A4454004B50BC /* GMDogSizeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMDogSizeTableViewController.m; path = ../GMDogSizeTableViewController.m; sourceTree = "<group>"; };
+		7A2388AB161A4454004B50BC /* GMHealthCareTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMHealthCareTableViewController.h; path = ../GMHealthCareTableViewController.h; sourceTree = "<group>"; };
+		7A2388AC161A4454004B50BC /* GMHealthCareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMHealthCareTableViewController.m; path = ../GMHealthCareTableViewController.m; sourceTree = "<group>"; };
+		7A2388AD161A4454004B50BC /* GMInitTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMInitTableViewController.h; path = ../GMInitTableViewController.h; sourceTree = "<group>"; };
+		7A2388AE161A4454004B50BC /* GMInitTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMInitTableViewController.m; path = ../GMInitTableViewController.m; sourceTree = "<group>"; };
+		7A2388AF161A4454004B50BC /* GMMedicineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMMedicineTableViewController.h; path = ../GMMedicineTableViewController.h; sourceTree = "<group>"; };
+		7A2388B0161A4454004B50BC /* GMMedicineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMMedicineTableViewController.m; path = ../GMMedicineTableViewController.m; sourceTree = "<group>"; };
+		7A2388BA161A4454004B50BC /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PropertyList.plist; path = "../Supporting Files/PropertyList.plist"; sourceTree = "<group>"; };
+		7A2388C9161A448C004B50BC /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../Storyboard/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7A2388CB161A4577004B50BC /* FoodProducts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodProducts.h; path = Data/FoodProducts.h; sourceTree = "<group>"; };
+		7A2388CC161A4577004B50BC /* FoodProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodProducts.m; path = Data/FoodProducts.m; sourceTree = "<group>"; };
+		7A2388D2161A45F1004B50BC /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataTableViewController.h; path = Data/CoreDataTableViewController.h; sourceTree = "<group>"; };
+		7A2388D3161A45F1004B50BC /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataTableViewController.m; path = Data/CoreDataTableViewController.m; sourceTree = "<group>"; };
+		7A23890B161A471A004B50BC /* fg100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fg100.png; path = ../Images/Stuff/fg100.png; sourceTree = "<group>"; };
+		7A23890C161A471A004B50BC /* fgg101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fgg101.png; path = ../Images/Stuff/fgg101.png; sourceTree = "<group>"; };
+		7A238934161A4752004B50BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7A238936161A4759004B50BC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7A238938161A475E004B50BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7A23893A161A4763004B50BC /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7A23893C161A4769004B50BC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7A3682F01655344A00B74DBF /* Model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2.xcdatamodel"; sourceTree = "<group>"; };
+		7A3682F11655344A00B74DBF /* Model 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 3.xcdatamodel"; sourceTree = "<group>"; };
+		7A3682F21655344A00B74DBF /* Model 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 4.xcdatamodel"; sourceTree = "<group>"; };
+		7A3682F31655344A00B74DBF /* Model 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 5.xcdatamodel"; sourceTree = "<group>"; };
+		7A3682F41655344A00B74DBF /* Model 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 6.xcdatamodel"; sourceTree = "<group>"; };
+		7A3682F51655344A00B74DBF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		7A3682F7165535E800B74DBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		7A3682F8165535E800B74DBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		7A45958C1621F1520029960F /* eukanuba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eukanuba.png; path = Images/Brands/eukanuba.png; sourceTree = SOURCE_ROOT; };
+		7A52EDC1163162AB001F8462 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Images/IconsAndlaunch/Default-568h@2x.png"; sourceTree = "<group>"; };
+		7A52EDCA163163AA001F8462 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = iRate/iRate.bundle; sourceTree = "<group>"; };
+		7A52EDCB163163AA001F8462 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = iRate/iRate.h; sourceTree = "<group>"; };
+		7A52EDCC163163AA001F8462 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = iRate/iRate.m; sourceTree = "<group>"; };
+		7A52EDD316316484001F8462 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7A66848F161A4E3D004AAA32 /* GMDogAgeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDogAgeTableViewController.h; sourceTree = SOURCE_ROOT; };
+		7A668490161A4E3D004AAA32 /* GMDogAgeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDogAgeTableViewController.m; sourceTree = SOURCE_ROOT; };
+		7A668491161A4E3D004AAA32 /* GMDogBreedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDogBreedTableViewController.h; sourceTree = SOURCE_ROOT; };
+		7A668492161A4E3D004AAA32 /* GMDogBreedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDogBreedTableViewController.m; sourceTree = SOURCE_ROOT; };
+		7A668493161A4E3D004AAA32 /* GMDogFoodDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMDogFoodDataBase.h; path = Data/GMDogFoodDataBase.h; sourceTree = SOURCE_ROOT; };
+		7A668494161A4E3E004AAA32 /* GMDogFoodDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMDogFoodDataBase.m; path = Data/GMDogFoodDataBase.m; sourceTree = SOURCE_ROOT; };
+		7A668495161A4E3E004AAA32 /* GMMyDogFoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMMyDogFoodTableViewController.h; sourceTree = SOURCE_ROOT; };
+		7A668496161A4E3E004AAA32 /* GMMyDogFoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMMyDogFoodTableViewController.m; sourceTree = SOURCE_ROOT; };
+		7A803DED1625863900300917 /* dogBrands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogBrands.png; path = ../Images/InitButtons/dogBrands.png; sourceTree = "<group>"; };
+		7A803DEE1625863900300917 /* dogHealthCare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogHealthCare.png; path = ../Images/InitButtons/dogHealthCare.png; sourceTree = "<group>"; };
+		7A803DEF1625863900300917 /* dogMedicine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogMedicine.png; path = ../Images/InitButtons/dogMedicine.png; sourceTree = "<group>"; };
+		7A803DF11625863900300917 /* dogSize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogSize.png; path = ../Images/InitButtons/dogSize.png; sourceTree = "<group>"; };
+		7A803DF21625863900300917 /* dogBreeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogBreeds.png; path = ../Images/InitButtons/dogBreeds.png; sourceTree = "<group>"; };
+		7A803DF9162586B200300917 /* dogAge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogAge.png; path = ../Images/InitButtons/dogAge.png; sourceTree = "<group>"; };
+		7AAC08051632B89600D15E64 /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Facebook.png; path = Images/Stuff/Facebook.png; sourceTree = SOURCE_ROOT; };
+		7AB740B71626C091009331ED /* TwitterLogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TwitterLogo2.png; path = ../Images/Stuff/TwitterLogo2.png; sourceTree = "<group>"; };
+		7AB740B91626C269009331ED /* EMailLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EMailLogo.png; path = ../Images/Stuff/EMailLogo.png; sourceTree = "<group>"; };
+		7AB740C81626C7F3009331ED /* dogFood57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogFood57.png; path = ../Images/IconsAndlaunch/dogFood57.png; sourceTree = "<group>"; };
+		7AB740CA1626C7F8009331ED /* dogFood114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogFood114.png; path = ../Images/IconsAndlaunch/dogFood114.png; sourceTree = "<group>"; };
+		7AB740CE1626CB44009331ED /* dogFoodIconAbout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogFoodIconAbout.png; path = ../Images/Stuff/dogFoodIconAbout.png; sourceTree = "<group>"; };
+		7AB740D01626CD3B009331ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Images/IconsAndlaunch/Default.png; sourceTree = "<group>"; };
+		7AB740D21626CD40009331ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Images/IconsAndlaunch/Default@2x.png"; sourceTree = "<group>"; };
+		7AED106E161C5B97002DE1D7 /* royalCaninBreedHealthNutrition.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = royalCaninBreedHealthNutrition.jpg; path = Images/Brands/royalCaninBreedHealthNutrition.jpg; sourceTree = SOURCE_ROOT; };
+		7AED1074161C8C96002DE1D7 /* royalCaninSizeHealthNutrition.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = royalCaninSizeHealthNutrition.jpg; path = Images/Brands/royalCaninSizeHealthNutrition.jpg; sourceTree = SOURCE_ROOT; };
+		7AED107A161CC25F002DE1D7 /* royalCaninVeterinaryDiet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = royalCaninVeterinaryDiet.jpg; path = Images/Brands/royalCaninVeterinaryDiet.jpg; sourceTree = SOURCE_ROOT; };
+		7AED107C161CC323002DE1D7 /* royalCaninVetCareNutrition.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = royalCaninVetCareNutrition.jpg; path = Images/Brands/royalCaninVetCareNutrition.jpg; sourceTree = SOURCE_ROOT; };
+		7AF5B8B91622E59B00B8A080 /* hillsSP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hillsSP.png; path = Images/Brands/hillsSP.png; sourceTree = SOURCE_ROOT; };
+		7AF5B8BA1622E59B00B8A080 /* hillsPD.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hillsPD.PNG; path = Images/Brands/hillsPD.PNG; sourceTree = SOURCE_ROOT; };
+		7AF9FF6416242263009D060C /* purinaProPlan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = purinaProPlan.jpg; path = Images/Brands/purinaProPlan.jpg; sourceTree = SOURCE_ROOT; };
+		7AF9FF6516242263009D060C /* purinaVetDiets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = purinaVetDiets.jpg; path = Images/Brands/purinaVetDiets.jpg; sourceTree = SOURCE_ROOT; };
+		7AF9FF7016244224009D060C /* fonsButtonFive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fonsButtonFive.png; path = ../Images/InitButtons/fonsButtonFive.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A238874161A431D004B50BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC31DAF165518CF00874079 /* iAd.framework in Frameworks */,
+				7A52EDD416316484001F8462 /* Social.framework in Frameworks */,
+				7A23893D161A4769004B50BC /* MessageUI.framework in Frameworks */,
+				7A23893B161A4763004B50BC /* Twitter.framework in Frameworks */,
+				7A238939161A475E004B50BC /* QuartzCore.framework in Frameworks */,
+				7A238935161A4752004B50BC /* CoreData.framework in Frameworks */,
+				7A23887C161A431D004B50BC /* UIKit.framework in Frameworks */,
+				7A23887E161A431D004B50BC /* Foundation.framework in Frameworks */,
+				7A238880161A431D004B50BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A23886C161A431D004B50BC = {
+			isa = PBXGroup;
+			children = (
+				7A238881161A431D004B50BC /* DogFood */,
+				7A23887A161A431D004B50BC /* Frameworks */,
+				7A238878161A431D004B50BC /* Products */,
+				7A52EDC91631638A001F8462 /* iRate */,
+			);
+			sourceTree = "<group>";
+		};
+		7A238878161A431D004B50BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A238877161A431D004B50BC /* DogFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A23887A161A431D004B50BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A52EDD316316484001F8462 /* Social.framework */,
+				7A23893C161A4769004B50BC /* MessageUI.framework */,
+				7A23893A161A4763004B50BC /* Twitter.framework */,
+				7A238938161A475E004B50BC /* QuartzCore.framework */,
+				7A238936161A4759004B50BC /* iAd.framework */,
+				7A238934161A4752004B50BC /* CoreData.framework */,
+				7A23887B161A431D004B50BC /* UIKit.framework */,
+				7A23887D161A431D004B50BC /* Foundation.framework */,
+				7A23887F161A431D004B50BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A238881161A431D004B50BC /* DogFood */ = {
+			isa = PBXGroup;
+			children = (
+				7A3682F7165535E800B74DBF /* AppDelegate.h */,
+				7A3682F8165535E800B74DBF /* AppDelegate.m */,
+				7A2388AD161A4454004B50BC /* GMInitTableViewController.h */,
+				7A2388AE161A4454004B50BC /* GMInitTableViewController.m */,
+				7A66848F161A4E3D004AAA32 /* GMDogAgeTableViewController.h */,
+				7A668490161A4E3D004AAA32 /* GMDogAgeTableViewController.m */,
+				7A2388A9161A4454004B50BC /* GMDogSizeTableViewController.h */,
+				7A2388AA161A4454004B50BC /* GMDogSizeTableViewController.m */,
+				7A2388A7161A4454004B50BC /* GMFoodBrandTableViewController.h */,
+				7A2388A8161A4454004B50BC /* GMFoodBrandTableViewController.m */,
+				7A2388AB161A4454004B50BC /* GMHealthCareTableViewController.h */,
+				7A2388AC161A4454004B50BC /* GMHealthCareTableViewController.m */,
+				7A2388AF161A4454004B50BC /* GMMedicineTableViewController.h */,
+				7A2388B0161A4454004B50BC /* GMMedicineTableViewController.m */,
+				7A668491161A4E3D004AAA32 /* GMDogBreedTableViewController.h */,
+				7A668492161A4E3D004AAA32 /* GMDogBreedTableViewController.m */,
+				7A668495161A4E3E004AAA32 /* GMMyDogFoodTableViewController.h */,
+				7A668496161A4E3E004AAA32 /* GMMyDogFoodTableViewController.m */,
+				7A2388A5161A4454004B50BC /* GMDetailViewController.h */,
+				7A2388A6161A4454004B50BC /* GMDetailViewController.m */,
+				7A23889D161A4454004B50BC /* GMAboutViewController.h */,
+				7A23889E161A4454004B50BC /* GMAboutViewController.m */,
+				7A2388C9161A448C004B50BC /* MainStoryboard.storyboard */,
+				7AC005001654F10700DBF5E1 /* Data */,
+				7A238882161A431D004B50BC /* Supporting Files */,
+			);
+			path = DogFood;
+			sourceTree = "<group>";
+		};
+		7A238882161A431D004B50BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A2388BA161A4454004B50BC /* PropertyList.plist */,
+				7A2388D5161A4605004B50BC /* Images */,
+				7A238883161A431D004B50BC /* DogFood-Info.plist */,
+				7A238884161A431D004B50BC /* InfoPlist.strings */,
+				7A238887161A431D004B50BC /* main.m */,
+				7A238889161A431D004B50BC /* DogFood-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A2388D5161A4605004B50BC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7A2388DA161A46D0004B50BC /* Brands */,
+				7AC31DB2165523F700874079 /* Stuff */,
+				7AC31DB1165523CA00874079 /* IconsAndLaunch */,
+				7AC31DB01655237F00874079 /* InitButtons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7A2388DA161A46D0004B50BC /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				7AF9FF6416242263009D060C /* purinaProPlan.jpg */,
+				7AF9FF6516242263009D060C /* purinaVetDiets.jpg */,
+				7AF5B8B91622E59B00B8A080 /* hillsSP.png */,
+				7AF5B8BA1622E59B00B8A080 /* hillsPD.PNG */,
+				7A45958C1621F1520029960F /* eukanuba.png */,
+				7AED107C161CC323002DE1D7 /* royalCaninVetCareNutrition.jpg */,
+				7AED107A161CC25F002DE1D7 /* royalCaninVeterinaryDiet.jpg */,
+				7AED1074161C8C96002DE1D7 /* royalCaninSizeHealthNutrition.jpg */,
+				7AED106E161C5B97002DE1D7 /* royalCaninBreedHealthNutrition.jpg */,
+			);
+			name = Brands;
+			sourceTree = "<group>";
+		};
+		7A52EDC91631638A001F8462 /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				7A52EDCA163163AA001F8462 /* iRate.bundle */,
+				7A52EDCB163163AA001F8462 /* iRate.h */,
+				7A52EDCC163163AA001F8462 /* iRate.m */,
+			);
+			name = iRate;
+			sourceTree = "<group>";
+		};
+		7AC005001654F10700DBF5E1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7A3682EF1655344A00B74DBF /* Model.xcdatamodeld */,
+				7A668493161A4E3D004AAA32 /* GMDogFoodDataBase.h */,
+				7A668494161A4E3E004AAA32 /* GMDogFoodDataBase.m */,
+				7A2388D2161A45F1004B50BC /* CoreDataTableViewController.h */,
+				7A2388D3161A45F1004B50BC /* CoreDataTableViewController.m */,
+				7A2388CB161A4577004B50BC /* FoodProducts.h */,
+				7A2388CC161A4577004B50BC /* FoodProducts.m */,
+			);
+			name = Data;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7AC31DB01655237F00874079 /* InitButtons */ = {
+			isa = PBXGroup;
+			children = (
+				7AF9FF7016244224009D060C /* fonsButtonFive.png */,
+				7A803DED1625863900300917 /* dogBrands.png */,
+				7A803DEE1625863900300917 /* dogHealthCare.png */,
+				7A803DF9162586B200300917 /* dogAge.png */,
+				7A803DEF1625863900300917 /* dogMedicine.png */,
+				7A803DF11625863900300917 /* dogSize.png */,
+				7A803DF21625863900300917 /* dogBreeds.png */,
+			);
+			name = InitButtons;
+			sourceTree = "<group>";
+		};
+		7AC31DB1165523CA00874079 /* IconsAndLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				7AB740CA1626C7F8009331ED /* dogFood114.png */,
+				7A52EDC1163162AB001F8462 /* Default-568h@2x.png */,
+				7AB740C81626C7F3009331ED /* dogFood57.png */,
+				7AB740D21626CD40009331ED /* Default@2x.png */,
+				7AB740D01626CD3B009331ED /* Default.png */,
+			);
+			name = IconsAndLaunch;
+			sourceTree = "<group>";
+		};
+		7AC31DB2165523F700874079 /* Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				7AB740CE1626CB44009331ED /* dogFoodIconAbout.png */,
+				7AAC08051632B89600D15E64 /* Facebook.png */,
+				7AB740B91626C269009331ED /* EMailLogo.png */,
+				7AB740B71626C091009331ED /* TwitterLogo2.png */,
+				7A23890B161A471A004B50BC /* fg100.png */,
+				7A23890C161A471A004B50BC /* fgg101.png */,
+			);
+			name = Stuff;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A238876161A431D004B50BC /* DogFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A238895161A431E004B50BC /* Build configuration list for PBXNativeTarget "DogFood" */;
+			buildPhases = (
+				7A238873161A431D004B50BC /* Sources */,
+				7A238874161A431D004B50BC /* Frameworks */,
+				7A238875161A431D004B50BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogFood;
+			productName = DogFood;
+			productReference = 7A238877161A431D004B50BC /* DogFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A23886E161A431D004B50BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jose Antonio Gabriel Massana";
+			};
+			buildConfigurationList = 7A238871161A431D004B50BC /* Build configuration list for PBXProject "DogFood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A23886C161A431D004B50BC;
+			productRefGroup = 7A238878161A431D004B50BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A238876161A431D004B50BC /* DogFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A238875161A431D004B50BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A238886161A431D004B50BC /* InfoPlist.strings in Resources */,
+				7A2388C8161A4454004B50BC /* PropertyList.plist in Resources */,
+				7A2388CA161A448C004B50BC /* MainStoryboard.storyboard in Resources */,
+				7A238926161A471A004B50BC /* fg100.png in Resources */,
+				7A238927161A471A004B50BC /* fgg101.png in Resources */,
+				7AED106F161C5B97002DE1D7 /* royalCaninBreedHealthNutrition.jpg in Resources */,
+				7AED1075161C8C96002DE1D7 /* royalCaninSizeHealthNutrition.jpg in Resources */,
+				7AED107B161CC25F002DE1D7 /* royalCaninVeterinaryDiet.jpg in Resources */,
+				7AED107D161CC323002DE1D7 /* royalCaninVetCareNutrition.jpg in Resources */,
+				7A45958D1621F1520029960F /* eukanuba.png in Resources */,
+				7AF5B8BB1622E59B00B8A080 /* hillsSP.png in Resources */,
+				7AF5B8BC1622E59B00B8A080 /* hillsPD.PNG in Resources */,
+				7AF9FF6616242263009D060C /* purinaProPlan.jpg in Resources */,
+				7AF9FF6716242263009D060C /* purinaVetDiets.jpg in Resources */,
+				7AF9FF7116244224009D060C /* fonsButtonFive.png in Resources */,
+				7A803DF31625863900300917 /* dogBrands.png in Resources */,
+				7A803DF41625863900300917 /* dogHealthCare.png in Resources */,
+				7A803DF51625863900300917 /* dogMedicine.png in Resources */,
+				7A803DF71625863900300917 /* dogSize.png in Resources */,
+				7A803DF81625863900300917 /* dogBreeds.png in Resources */,
+				7A803DFA162586B200300917 /* dogAge.png in Resources */,
+				7AB740B81626C091009331ED /* TwitterLogo2.png in Resources */,
+				7AB740BA1626C269009331ED /* EMailLogo.png in Resources */,
+				7AB740C91626C7F3009331ED /* dogFood57.png in Resources */,
+				7AB740CB1626C7F8009331ED /* dogFood114.png in Resources */,
+				7AB740CF1626CB44009331ED /* dogFoodIconAbout.png in Resources */,
+				7AB740D11626CD3B009331ED /* Default.png in Resources */,
+				7AB740D31626CD40009331ED /* Default@2x.png in Resources */,
+				7A52EDC2163162AB001F8462 /* Default-568h@2x.png in Resources */,
+				7A52EDCD163163AA001F8462 /* iRate.bundle in Resources */,
+				7AAC08061632B89600D15E64 /* Facebook.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A238873161A431D004B50BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3682F91655361D00B74DBF /* AppDelegate.m in Sources */,
+				7A238888161A431D004B50BC /* main.m in Sources */,
+				7A2388BC161A4454004B50BC /* GMAboutViewController.m in Sources */,
+				7A2388C0161A4454004B50BC /* GMDetailViewController.m in Sources */,
+				7A2388C1161A4454004B50BC /* GMFoodBrandTableViewController.m in Sources */,
+				7A2388C2161A4454004B50BC /* GMDogSizeTableViewController.m in Sources */,
+				7A2388C3161A4454004B50BC /* GMHealthCareTableViewController.m in Sources */,
+				7A2388C4161A4454004B50BC /* GMInitTableViewController.m in Sources */,
+				7A2388C5161A4454004B50BC /* GMMedicineTableViewController.m in Sources */,
+				7A2388CD161A4577004B50BC /* FoodProducts.m in Sources */,
+				7A2388D4161A45F1004B50BC /* CoreDataTableViewController.m in Sources */,
+				7A668497161A4E3E004AAA32 /* GMDogAgeTableViewController.m in Sources */,
+				7A668498161A4E3E004AAA32 /* GMDogBreedTableViewController.m in Sources */,
+				7A668499161A4E3E004AAA32 /* GMDogFoodDataBase.m in Sources */,
+				7A66849A161A4E3E004AAA32 /* GMMyDogFoodTableViewController.m in Sources */,
+				7A52EDCE163163AA001F8462 /* iRate.m in Sources */,
+				7A3682F61655344A00B74DBF /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A238884161A431D004B50BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A238885161A431D004B50BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A238893161A431E004B50BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A238894161A431E004B50BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A238896161A431E004B50BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogFood/DogFood-Prefix.pch";
+				INFOPLIST_FILE = "DogFood/DogFood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A238897161A431E004B50BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogFood/DogFood-Prefix.pch";
+				INFOPLIST_FILE = "DogFood/DogFood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A238871161A431D004B50BC /* Build configuration list for PBXProject "DogFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A238893161A431E004B50BC /* Debug */,
+				7A238894161A431E004B50BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A238895161A431E004B50BC /* Build configuration list for PBXNativeTarget "DogFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A238896161A431E004B50BC /* Debug */,
+				7A238897161A431E004B50BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A3682EF1655344A00B74DBF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A3682F01655344A00B74DBF /* Model 2.xcdatamodel */,
+				7A3682F11655344A00B74DBF /* Model 3.xcdatamodel */,
+				7A3682F21655344A00B74DBF /* Model 4.xcdatamodel */,
+				7A3682F31655344A00B74DBF /* Model 5.xcdatamodel */,
+				7A3682F41655344A00B74DBF /* Model 6.xcdatamodel */,
+				7A3682F51655344A00B74DBF /* Model.xcdatamodel */,
+			);
+			currentVersion = 7A3682F41655344A00B74DBF /* Model 6.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = Data/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A23886E161A431D004B50BC /* Project object */;
+}

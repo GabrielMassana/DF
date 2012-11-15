@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="cIx-st-itz">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--Init Table View Controller - .DogFood-->
+        <scene sceneID="8xe-8t-Dyv">
+            <objects>
+                <viewController id="dnv-91-CmP" customClass="GMInitTableViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GoL-q2-kXw">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Tnx-3x-JQD">
+                                <rect key="frame" x="0.0" y="30" width="159" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Woc-Ta-p2c" kind="push" identifier="DogAge" id="Zyg-0E-VF6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sVF-d4-A6S">
+                                <rect key="frame" x="160" y="30" width="160" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wn3-bu-qgu" kind="push" identifier="HealthCare" id="vX6-kj-aIl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="adk-rl-Bte">
+                                <rect key="frame" x="0.0" y="131" width="159" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dqg-15-ROY" kind="push" identifier="DogSize" id="YdJ-Bh-Tn0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mHV-w3-BTw">
+                                <rect key="frame" x="160" y="131" width="160" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FQF-yI-0ra" kind="push" identifier="Medicine" id="nTy-Db-Ybp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iew-gx-Vj0">
+                                <rect key="frame" x="0.0" y="232" width="159" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BHS-Ec-iWN" kind="push" identifier="FoodBrand" id="psF-cp-NQ7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jAB-uc-wEq">
+                                <rect key="frame" x="160" y="232" width="160" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="i60-bT-43u" kind="push" identifier="DogBreed" id="vxU-Bh-GKs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FS6-0b-QO0">
+                                <rect key="frame" x="0.0" y="333" width="320" height="83"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="51"/>
+                                <state key="normal" title="Go  ">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WEB-PY-84B" kind="push" identifier="MyDogFoods" id="a19-cN-3r6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y4V-ph-ID7">
+                                <rect key="frame" x="0.0" y="-1" width="320" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Select One" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="gE2-7i-tue">
+                                <rect key="frame" x="192" y="4" width="96" height="22"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Health Care" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="7V6-AR-ZJB">
+                                <rect key="frame" x="197" y="103" width="93" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="uZl-Oc-M7W">
+                                <rect key="frame" x="44" y="103" width="72" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="yMq-km-Osv">
+                                <rect key="frame" x="43" y="205" width="80" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Brand" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="nT5-kj-1Bl">
+                                <rect key="frame" x="47" y="306" width="72" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Breed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="SbE-xS-ZnS">
+                                <rect key="frame" x="207" y="306" width="72" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Medicine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="DFN-JY-esB">
+                                <rect key="frame" x="207" y="205" width="72" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="Gww-01-R6h">
+                                <rect key="frame" x="12" y="338" width="201" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="beY-Uj-oA5">
+                                <rect key="frame" x="12" y="356" width="201" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Brand" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="nRe-zE-c9r">
+                                <rect key="frame" x="12" y="372" width="201" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Select One" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="CsR-xu-Q8A">
+                                <rect key="frame" x="12" y="388" width="201" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dogAge.png" id="oYQ-gs-cq1">
+                                <rect key="frame" x="-158" y="48" width="105" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dogSize.png" id="nuc-Kt-ihH">
+                                <rect key="frame" x="-158" y="148" width="105" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dogBrands.png" id="zRi-s7-86j">
+                                <rect key="frame" x="-158" y="250" width="105" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dogBreeds.png" id="akz-DX-TeN">
+                                <rect key="frame" x="372" y="250" width="105" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dogMedicine.png" id="30q-rf-NBN">
+                                <rect key="frame" x="372" y="148" width="105" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dogHealthCare.png" id="vpu-Rf-bMf">
+                                <rect key="frame" x="372" y="48" width="105" height="55"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title=".DogFood" id="gfm-nC-sR2">
+                        <barButtonItem key="leftBarButtonItem" title="Reset" id="dUM-d8-e4N">
+                            <connections>
+                                <action selector="resetButtonPressed:" destination="dnv-91-CmP" id="pR8-Hw-8lf"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="About" id="OV9-Jk-NGB">
+                            <connections>
+                                <segue destination="xTw-MC-mV6" kind="push" id="vQP-y2-OSP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="buttonAge" destination="Tnx-3x-JQD" id="RJA-AD-GJo"/>
+                        <outlet property="buttonBrand" destination="iew-gx-Vj0" id="hxr-UL-Sfm"/>
+                        <outlet property="buttonBreed" destination="jAB-uc-wEq" id="u08-Du-82X"/>
+                        <outlet property="buttonGo" destination="FS6-0b-QO0" id="kHs-Z9-YS5"/>
+                        <outlet property="buttonHealthCare" destination="sVF-d4-A6S" id="cmA-Gf-XiD"/>
+                        <outlet property="buttonMedicine" destination="mHV-w3-BTw" id="YhT-un-lJ2"/>
+                        <outlet property="buttonSelectOne" destination="Y4V-ph-ID7" id="LMQ-AL-wxs"/>
+                        <outlet property="buttonSize" destination="adk-rl-Bte" id="b8m-eM-8jg"/>
+                        <outlet property="imageAge" destination="oYQ-gs-cq1" id="V7d-Gn-UoB"/>
+                        <outlet property="imageBrand" destination="zRi-s7-86j" id="GH9-VR-D03"/>
+                        <outlet property="imageBreed" destination="akz-DX-TeN" id="jwT-VQ-JUT"/>
+                        <outlet property="imageHealthCare" destination="vpu-Rf-bMf" id="m2z-uB-XmD"/>
+                        <outlet property="imageMedicine" destination="30q-rf-NBN" id="Yfb-km-0C0"/>
+                        <outlet property="imageSize" destination="nuc-Kt-ihH" id="1K9-AB-41B"/>
+                        <outlet property="labelAge" destination="Gww-01-R6h" id="nel-ut-LZR"/>
+                        <outlet property="labelBrand" destination="nRe-zE-c9r" id="ICJ-jd-Kqc"/>
+                        <outlet property="labelInfoAge" destination="uZl-Oc-M7W" id="5ZQ-V3-bpZ"/>
+                        <outlet property="labelInfoBrand" destination="nT5-kj-1Bl" id="KJ7-XJ-hh0"/>
+                        <outlet property="labelInfoBreed" destination="SbE-xS-ZnS" id="1tA-N0-1tu"/>
+                        <outlet property="labelInfoHealthCare" destination="7V6-AR-ZJB" id="kgp-94-KP5"/>
+                        <outlet property="labelInfoMedicine" destination="DFN-JY-esB" id="1qO-PZ-3l6"/>
+                        <outlet property="labelInfoSize" destination="yMq-km-Osv" id="5cR-RZ-wom"/>
+                        <outlet property="labelSelectOne" destination="CsR-xu-Q8A" id="bgX-D6-dDy"/>
+                        <outlet property="labelSize" destination="beY-Uj-oA5" id="oUX-5Y-vJX"/>
+                        <outlet property="labelViewSelectOne" destination="gE2-7i-tue" id="gyR-iB-ebp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ROF-7p-Fxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1836" y="501"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="d4D-m9-hwz">
+            <objects>
+                <viewController id="xTw-MC-mV6" customClass="GMAboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yf7-uY-1o0">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text=".DogFood" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" id="ie4-a1-zW1">
+                                <rect key="frame" x="139" y="34" width="88" height="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dogFoodIconAbout.png" id="1qV-oo-Y1b">
+                                <rect key="frame" x="43" y="25" width="72" height="72"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Version: 1.1.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="nJG-QA-WZG">
+                                <rect key="frame" x="139" y="58" width="139" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Application developed by:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="en6-ke-L5u">
+                                <rect key="frame" x="43" y="110" width="189" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Gabriel Massana" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="bDB-7T-Ope">
+                                <rect key="frame" x="43" y="133" width="137" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Kp-X3-NKi">
+                                <rect key="frame" x="80" y="170" width="72" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="EMailLogo.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendMail:" destination="xTw-MC-mV6" eventType="touchUpInside" id="qXI-24-0fI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="W3t-vA-Awe">
+                                <rect key="frame" x="160" y="170" width="72" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="TwitterLogo2.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendTweet:" destination="xTw-MC-mV6" eventType="touchUpInside" id="N1c-cM-Tco"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JaB-6d-imM">
+                                <rect key="frame" x="80" y="249" width="72" height="73"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="Facebook.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendFacebook:" destination="xTw-MC-mV6" eventType="touchUpInside" id="1Yl-Vo-ohX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FrH-n2-hvW"/>
+                    <connections>
+                        <outlet property="buttonFacebook" destination="JaB-6d-imM" id="2BW-I3-KyT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OYU-V2-kNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3944" y="133"/>
+        </scene>
+        <!--My Dog Food Table View Controller - Your .DogFoods-->
+        <scene sceneID="adG-mG-X2n">
+            <objects>
+                <tableViewController id="WEB-PY-84B" customClass="GMMyDogFoodTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="4pe-oU-NA4">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MyDogFoodCell" rowHeight="60" id="APc-jN-W6o">
+                                <rect key="frame" x="0.0" y="22" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="59"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="pnA-pU-560">
+                                            <rect key="frame" x="73" y="4" width="212" height="35"/>
+                                            <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" tag="200" contentMode="scaleAspectFit" id="tXC-oM-HND">
+                                            <rect key="frame" x="14" y="4" width="51" height="51"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="300" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" id="yj2-yG-JB0">
+                                            <rect key="frame" x="73" y="34" width="184" height="21"/>
+                                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="Bq8-0G-NrN" kind="push" identifier="detail" id="Q0U-Xb-XE0"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="WEB-PY-84B" id="mQ4-co-63S"/>
+                            <outlet property="delegate" destination="WEB-PY-84B" id="Mh0-yf-C4J"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Your .DogFoods" id="DWu-qn-BqS"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bNP-6W-Jcn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4584" y="529"/>
+        </scene>
+        <!--Detail View Controller - .DogFood Detail-->
+        <scene sceneID="ESu-ap-4In">
+            <objects>
+                <viewController id="Bq8-0G-NrN" customClass="GMDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r6O-iE-knn">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" image="fgg101.png" id="G5h-bl-odp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="saC-nN-CSW">
+                                <rect key="frame" x="20" y="69" width="280" height="337"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="o4t-hF-PhC" appends="YES" id="9b4-db-BHh"/>
+                                </connections>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Zxt-E6-lF5">
+                                <rect key="frame" x="10" y="6" width="300" height="37"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title=" ggggg">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openWeb:" destination="Bq8-0G-NrN" eventType="touchUpInside" id="lNf-ox-ZEb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title=".DogFood Detail" id="G54-zd-80o">
+                        <barButtonItem key="rightBarButtonItem" title="Send" id="vQO-jI-NY5">
+                            <connections>
+                                <action selector="sendEMailPressed:" destination="Bq8-0G-NrN" id="k3g-y9-hff"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="buttonFoodName" destination="Zxt-E6-lF5" id="whm-q4-ZBZ"/>
+                        <outlet property="textView" destination="saC-nN-CSW" id="jby-MB-TgZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pA4-2N-CSa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer enabled="NO" direction="right" id="o4t-hF-PhC">
+                    <connections>
+                        <action selector="swipeSendEMail:" destination="Bq8-0G-NrN" id="5Iw-8r-DUz"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="5016" y="529"/>
+        </scene>
+        <!--Dog Age Table View Controller - Dog Age-->
+        <scene sceneID="ETI-Kw-oiJ">
+            <objects>
+                <tableViewController id="Woc-Ta-p2c" customClass="GMDogAgeTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="G2e-Os-3Ge">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DogAgesCell" textLabel="qWe-1K-ewf" detailTextLabel="YEE-if-TLu" style="IBUITableViewCellStyleValue1" id="jFA-nu-XfN">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qWe-1K-ewf">
+                                            <rect key="frame" x="10" y="11" width="35" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YEE-if-TLu">
+                                            <rect key="frame" x="266" y="11" width="44" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Woc-Ta-p2c" id="BRF-1Q-zLQ"/>
+                            <outlet property="delegate" destination="Woc-Ta-p2c" id="bIP-qQ-D2z"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Dog Age" id="cSp-Cj-hq6"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YZX-qW-XOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2468" y="-860"/>
+        </scene>
+        <!--Dog Size Table View Controller - Dog Size-->
+        <scene sceneID="YtL-FK-T3Y">
+            <objects>
+                <tableViewController id="Dqg-15-ROY" customClass="GMDogSizeTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wUB-nw-usU">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DogSizeCell" textLabel="ere-Ac-dnh" detailTextLabel="maU-qF-3B0" style="IBUITableViewCellStyleSubtitle" id="04X-2y-lk5">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ere-Ac-dnh">
+                                            <rect key="frame" x="10" y="2" width="38" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="maU-qF-3B0">
+                                            <rect key="frame" x="10" y="24" width="36" height="18"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Dqg-15-ROY" id="uuE-HS-JSM"/>
+                            <outlet property="delegate" destination="Dqg-15-ROY" id="crp-2j-y0b"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Dog Size" id="ccz-8B-xzu"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7HD-De-k4y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3032" y="-732"/>
+        </scene>
+        <!--Dog Breed Table View Controller - Dog Breed-->
+        <scene sceneID="nyV-5D-vgE">
+            <objects>
+                <tableViewController id="i60-bT-43u" customClass="GMDogBreedTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="s2o-MQ-wdX">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DogBreedCell" textLabel="tmM-ra-AG3" detailTextLabel="kr6-ty-VPm" style="IBUITableViewCellStyleValue1" id="AeL-S3-NF8">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tmM-ra-AG3">
+                                            <rect key="frame" x="10" y="11" width="35" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kr6-ty-VPm">
+                                            <rect key="frame" x="266" y="11" width="44" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="i60-bT-43u" id="oU8-Eo-r1R"/>
+                            <outlet property="delegate" destination="i60-bT-43u" id="FVJ-b1-3vw"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Dog Breed" id="U3m-6w-cPw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1fW-zj-puk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2468" y="1495"/>
+        </scene>
+        <!--Medicine Table View Controller - Medicine-->
+        <scene sceneID="vPk-A2-F9W">
+            <objects>
+                <tableViewController id="FQF-yI-0ra" customClass="GMMedicineTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="LYS-hs-6am">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MedicineCell" textLabel="0hI-jb-q1D" detailTextLabel="2NW-Pd-RiI" style="IBUITableViewCellStyleValue1" id="3Ol-RS-gAh">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0hI-jb-q1D">
+                                            <rect key="frame" x="10" y="11" width="35" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2NW-Pd-RiI">
+                                            <rect key="frame" x="266" y="11" width="44" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="FQF-yI-0ra" id="60o-uB-Ljt"/>
+                            <outlet property="delegate" destination="FQF-yI-0ra" id="9Y4-ah-ai2"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Medicine" id="oCp-q6-4pB"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AKH-Zx-r4X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3032" y="1267"/>
+        </scene>
+        <!--Health Care Table View Controller - Health Care-->
+        <scene sceneID="lSh-pX-jJc">
+            <objects>
+                <tableViewController id="wn3-bu-qgu" customClass="GMHealthCareTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="aCU-ZP-R4a">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HealthCareCell" textLabel="GYY-7c-DQN" detailTextLabel="o0l-Ua-mKv" style="IBUITableViewCellStyleValue1" id="ZDQ-6W-KHQ">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GYY-7c-DQN">
+                                            <rect key="frame" x="10" y="11" width="35" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o0l-Ua-mKv">
+                                            <rect key="frame" x="266" y="11" width="44" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="wn3-bu-qgu" id="1Mf-fS-Cfd"/>
+                            <outlet property="delegate" destination="wn3-bu-qgu" id="5rt-U5-4AH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Health Care" id="elH-Hz-mPL"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mJx-Dp-D91" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3476" y="931"/>
+        </scene>
+        <!--Food Brand Table View Controller - Food Brand-->
+        <scene sceneID="Kjh-x5-g8V">
+            <objects>
+                <tableViewController id="BHS-Ec-iWN" customClass="GMFoodBrandTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="e9U-7x-efU">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FoodBrandCell" textLabel="4g4-DH-4mq" detailTextLabel="Tal-13-LYp" style="IBUITableViewCellStyleValue1" id="RrL-y1-cT8">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4g4-DH-4mq">
+                                            <rect key="frame" x="10" y="11" width="35" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tal-13-LYp">
+                                            <rect key="frame" x="266" y="11" width="44" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BHS-Ec-iWN" id="jnI-pb-HjM"/>
+                            <outlet property="delegate" destination="BHS-Ec-iWN" id="mtZ-GV-vgO"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Food Brand" id="KjM-h8-nGb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ehb-nv-mMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3476" y="-408"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8bb-Ja-R6y">
+            <objects>
+                <navigationController id="cIx-st-itz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="FOe-3A-C5h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dnv-91-CmP" kind="relationship" relationship="rootViewController" id="wYS-Y3-yTu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVU-0f-9Ya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1336" y="529"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EMailLogo.png" width="220" height="220"/>
+        <image name="Facebook.png" width="165" height="165"/>
+        <image name="TwitterLogo2.png" width="283" height="283"/>
+        <image name="dogAge.png" width="413" height="217"/>
+        <image name="dogBrands.png" width="413" height="217"/>
+        <image name="dogBreeds.png" width="413" height="217"/>
+        <image name="dogFoodIconAbout.png" width="220" height="220"/>
+        <image name="dogHealthCare.png" width="413" height="217"/>
+        <image name="dogMedicine.png" width="413" height="217"/>
+        <image name="dogSize.png" width="413" height="217"/>
+        <image name="fgg101.png" width="333" height="634"/>
+    </resources>
+    <classes>
+        <class className="CoreDataTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CoreDataTableViewController.h"/>
+        </class>
+        <class className="GMAboutViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMAboutViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="sendFacebook:"/>
+                <relationship kind="action" name="sendMail:"/>
+                <relationship kind="action" name="sendTweet:"/>
+                <relationship kind="outlet" name="buttonFacebook" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="GMDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="openWeb:"/>
+                <relationship kind="action" name="sendEMailPressed:"/>
+                <relationship kind="outlet" name="buttonFoodName" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="GMDogAgeTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMDogAgeTableViewController.h"/>
+        </class>
+        <class className="GMDogBreedTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMDogBreedTableViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="labelSelectOne" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="GMDogSizeTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMDogSizeTableViewController.h"/>
+        </class>
+        <class className="GMFoodBrandTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMFoodBrandTableViewController.h"/>
+        </class>
+        <class className="GMHealthCareTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMHealthCareTableViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="labelSelectOne" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="GMInitTableViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMInitTableViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="resetButtonPressed:"/>
+                <relationship kind="outlet" name="buttonAge" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonBrand" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonBreed" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonGo" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonHealthCare" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonMedicine" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonSelectOne" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonSize" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="imageAge" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageBrand" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageBreed" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageHealthCare" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageMedicine" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageSize" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="labelAge" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelBrand" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelInfoAge" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelInfoBrand" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelInfoBreed" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelInfoHealthCare" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelInfoMedicine" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelInfoSize" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelSelectOne" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelSize" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelViewSelectOne" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="GMMedicineTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMMedicineTableViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="labelSelectOne" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="GMMyDogFoodTableViewController" superclassName="CoreDataTableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GMMyDogFoodTableViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

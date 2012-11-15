@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="FoodComposition" representedClassName="FoodComposition" syncable="YES">
+        <attribute name="catMilk" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fibre" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fish" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="meet" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="rice" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="foodProducts" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FoodProducts" inverseName="foodComposition" inverseEntity="FoodProducts" syncable="YES"/>
+    </entity>
+    <entity name="FoodProducts" representedClassName="FoodProducts" syncable="YES">
+        <attribute name="catAge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catBreed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodBrand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="foodComposition" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FoodComposition" inverseName="foodProducts" inverseEntity="FoodComposition" syncable="YES"/>
+        <relationship name="healthCare" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="HealthCare" inverseName="foodProducts" inverseEntity="HealthCare" syncable="YES"/>
+        <relationship name="medicine" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Medicine" inverseName="foodProducts" inverseEntity="Medicine" syncable="YES"/>
+    </entity>
+    <entity name="HealthCare" representedClassName="HealthCare" syncable="YES">
+        <attribute name="exigent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hairAndSkin" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hairball" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="indoor" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="longevity" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mobility" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="neutered" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="optimalCare" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="oralCare" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="overweight" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="pregnantOrNursingCat" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sterilised" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="stomach" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="vitality" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="weaning" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="foodProducts" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FoodProducts" inverseName="healthCare" inverseEntity="FoodProducts" syncable="YES"/>
+    </entity>
+    <entity name="Medicine" representedClassName="Medicine" syncable="YES">
+        <attribute name="alergic" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="articularMobility" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cardiovascular" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="convalescent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="diabetes" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fiber" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="gastrointestinal" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hepatic" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="renal" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="stress" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="thyroid" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="foodProducts" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FoodProducts" inverseName="medicine" inverseEntity="FoodProducts" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FoodComposition" positionX="-6356" positionY="-45" width="128" height="135"/>
+        <element name="FoodProducts" positionX="-6525" positionY="234" width="128" height="135"/>
+        <element name="HealthCare" positionX="-6356" positionY="324" width="128" height="285"/>
+        <element name="Medicine" positionX="-6356" positionY="90" width="128" height="225"/>
+    </elements>
+</model>

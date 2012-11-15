@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="FoodProducts" representedClassName="FoodProducts" syncable="YES">
+        <attribute name="catAge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catBreed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodBrand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodComposition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="healthCare" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicine" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FoodProducts" positionX="-6525" positionY="234" width="128" height="135"/>
+    </elements>
+</model>
